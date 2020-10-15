@@ -18,5 +18,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
                 panic(err)
         }
         fmt.Fprintf(w, "<h1>Hostname : %s</h1>\n", hostname)
-        //fmt.Fprintf(w, "<h1>VMware DevOps Meetup #6</h1>\n")
+        fmt.Fprintf(w, "<h1>VMware DevOps Meetup #6</h1>\n")
 }
