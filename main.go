@@ -19,4 +19,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
         }
         fmt.Fprintf(w, "<h1>Hostname : %s</h1>\n", hostname)
         fmt.Fprintf(w, "<h1>GitOps !!!</h1>\n")
+        fmt.Fprintf(w, "<h3>GitOps ?</h3>\n")
 }
